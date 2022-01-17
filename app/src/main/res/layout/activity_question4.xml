@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7DEE66A"
+    tools:context=".Question1">
+
+    <TextView
+        android:id="@+id/textViewq4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="@string/cuarta_pregunta"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textViewq4_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewq4_2"
+        android:layout_width="303dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cu_l_es_la_bandera_de_asturias"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq4_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="162dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq4_2"
+        android:onClick="incorrecto"
+        app:srcCompat="@drawable/_280px_bandera_de_andalucia_opt" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="162dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="correcto"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq4_2"
+        app:srcCompat="@drawable/_200px_flag_of_asturias_opt" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:onClick="incorrecto"
+        android:layout_width="161dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@drawable/_200px_flag_of_the_valencian_community__2x3__opt" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:onClick="incorrecto"
+        android:layout_width="160dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@drawable/bandera_galicia_opt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

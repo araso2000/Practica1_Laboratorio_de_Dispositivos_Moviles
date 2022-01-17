@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/corergir_q2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F76AE69C"
+    android:onClick="Corregir"
+    tools:context=".Question1">
+
+    <TextView
+        android:id="@+id/textViewq2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/segunda_pregunta"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textViewq2_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewq2_2"
+        android:layout_width="253dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/esta_es_la_isla_poblada_m_s_peque_a_de_espa_a_c_mo_se_llama"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupq2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq2_1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupq2"
+        android:layout_width="252dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq2_2">
+
+        <RadioButton
+            android:id="@+id/radioButtonq2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mallorca" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/isla_cabrera" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tenerife" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tabarca"
+            android:textColor="#37474F"
+            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/corregir_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="92dp"
+        android:onClick="Corregir"
+        android:text="@string/continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupq2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

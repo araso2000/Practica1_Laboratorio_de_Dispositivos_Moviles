@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7E66A83"
+    tools:context=".Question1">
+
+    <TextView
+        android:id="@+id/textViewq3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tercera_pregunta"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textViewq3_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewq3_2"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:text="@string/en_qu_ciudad_espa_ola_se_encuentra_el_siguiente_monumento"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewq3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq3_1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupq3"
+        android:layout_width="157dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewq3">
+
+        <RadioButton
+            android:id="@+id/radioButtonq3_1"
+            android:layout_width="125dp"
+            android:layout_height="31dp"
+            android:text="@string/barcelona" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq3_2"
+            android:layout_width="125dp"
+            android:layout_height="31dp"
+            android:text="@string/madrid" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq3_3"
+            android:layout_width="125dp"
+            android:layout_height="26dp"
+            android:text="@string/toledo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonq3_4"
+            android:layout_width="125dp"
+            android:layout_height="28dp"
+            android:text="@string/salamanca" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageViewq3"
+        android:layout_width="360dp"
+        android:layout_height="267dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupq3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewq3_2"
+        app:srcCompat="@drawable/sagradafamilia"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/corregir_q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="108dp"
+        android:onClick="Corregir"
+        android:text="@string/continuar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewq3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

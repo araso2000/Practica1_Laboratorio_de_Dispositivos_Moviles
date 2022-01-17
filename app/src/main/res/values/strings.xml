@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Practica1_Quiz</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="quiz_de_geograf_a_espa_ola">Quiz de Geografía Española</string>
+    <string name="primera_pregunta">Primera Pregunta</string>
+    <string name="cu_l_es_la_provincia_con_mayor_superficie">¿Cuál es la provincia con mayor superficie?</string>
+    <string name="c_ceres">Cáceres</string>
+    <string name="badajoz">Badajoz</string>
+    <string name="valladolid">Valladolid</string>
+    <string name="granada">Granada</string>
+    <string name="segunda_pregunta">Segunda Pregunta</string>
+    <string name="esta_es_la_isla_poblada_m_s_peque_a_de_espa_a_c_mo_se_llama">¿Cómo se llama la isla poblada más pequeña de España?</string>
+    <string name="mallorca">Mallorca</string>
+    <string name="isla_cabrera">Isla Cabrera</string>
+    <string name="tenerife">Tenerife</string>
+    <string name="tabarca">Tabarca</string>
+    <string name="tercera_pregunta">Tercera Pregunta</string>
+    <string name="en_qu_ciudad_espa_ola_se_encuentra_el_siguiente_monumento">¿En qué ciudad española se encuentra el siguiente monumento?</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="toledo">Toledo</string>
+    <string name="salamanca">Salamanca</string>
+    <string name="todo">TODO</string>
+    <string name="corregir">Corregir</string>
+    <string name="cuarta_pregunta">Cuarta Pregunta</string>
+    <string name="cu_l_es_la_bandera_de_asturias">¿Cuál es la bandera de Asturias?</string>
+    <string name="quinta_pregunta">Quinta Pregunta</string>
+    <string name="a_qu_comunidad_pertenece_esta_bandera">¿A qué comunidad autónoma pertenece esta bandera?</string>
+    <string name="catalu_a">Cataluña</string>
+    <string name="castilla_y_le_n">Castilla y León</string>
+    <string name="castilla_la_mancha">Castilla-La Mancha</string>
+    <string name="madrid">Madrid</string>
+    <string name="incorrecto">Incorrecto :(</string>
+    <string name="empezar_de_nuevo">Empezar de nuevo</string>
+    <string name="continuar_partida">Continuar partida</string>
+    <string name="puntuacion_acumulada">Puntuacion acumulada:</string>
+    <string name="continuar">Continuar</string>
+</resources>
